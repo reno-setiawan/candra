@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMP MADINATUL ILMI</title>
+
+    <!-- Our Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation Start-->
+    <nav>
+      <!-- <img src="images/logo.svg" alt="" /> -->
+      <p class="textLogo">Smp Madinatul Ilmi</p>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="images/menu.png" alt="menu" id="menu-btn" />
+      </div>
+    </nav>
+    <!-- Navigation End-->
+
+    <!-- Home start -->
+    <section id="about-home">
+      <h2>Blog Smp Madinatul Ilmi</h2>
+    </section>
+    <!-- Home End -->
+
+    <!-- Blog Start -->
+    <section id="blog-container">
+      <div class="blogs">
+        <div class="post" id="pramuka">
+          <img src="images/Pramuka.jpg" alt="" />
+          <h3>Pramuka</h3>
+          <p>
+            Pramuka adalah gerakan kepanduan dan kepramukaan yang bertujuan untuk membentuk karakter, kepribadian, dan keterampilan positif pada generasi muda. Gerakan ini memiliki landasan moral dan etika yang dinyatakan dalam nilai-nilai
+            ...
+          </p>
+          <a href="inner-blog/postPramuka.html">Read More</a>
+        </div>
+        <div class="post" id="taekwondo">
+          <img src="images/taekwondo.jpeg" alt="" />
+          <h3>Taekwondo</h3>
+          <p>Taekwondo adalah seni bela diri tradisional Korea yang telah berkembang menjadi olahraga dan disiplin seni bela diri internasional. Kata "Tae" berarti kaki, "Kwon" berarti tinju atau tangan, dan ...</p>
+          <a href="inner-blog/postTaekwondo.html">Read More</a>
+        </div>
+        <div class="post" id="osis">
+          <img src="images/osis.jpeg" alt="" />
+          <h3>OSIS</h3>
+          <p>
+            OSIS adalah singkatan dari Organisasi Siswa Intra Sekolah. OSIS adalah organisasi di sekolah yang terdiri dari siswa-siswa yang terpilih atau diangkat untuk menjadi perwakilan dan pengelola kegiatan siswa di tingkat sekolah.
+            Tujuan ...
+          </p>
+          <a href="inner-blog/postOsis.html">Read More</a>
+        </div>
+      </div>
+      <div class="cate">
+        <h2>Kategori</h2>
+        <hr />
+        <a href="#pramuka">Pramuka</a>
+        <hr />
+        <a href="#taekwondo">Taekwondo</a>
+        <hr />
+        <a href="#osis">Osis</a>
+        <hr />
+      </div>
+    </section>
+    <!-- Blog ENd -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <p>Welcome to Smp Madinatul Ilmi</p>
+      </div>
+      <div class="footer-col">
+        <h3>Instan Links</h3>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+      <div class="footer-col">
+        <h3>Non Academic Programs</h3>
+        <li><a href="inner-blog/postPramuka.html">Pramuka</a></li>
+        <li><a href="inner-blog/postTaekwondo.html">Taekwondo</a></li>
+        <li><a href="inner-blog/postOsis.html">Osis</a></li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Information</h3>
+        <p>
+          Address: Ciputat<br />
+          Phone: +62 821-8318-5685<br />
+          Email: smpmadinatulilmi27@gmail.com
+        </p>
+        <a href="#"><i class="fab fa-facebook"></i> </a>
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="#"><i class="fab fa-linkedin-in"></i> </a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy;2023 All Rights Reserved</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>

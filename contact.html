@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMP MADINATUL ILMI</title>
+
+    <!-- Our Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation Start-->
+    <nav>
+      <!-- <img src="images/logo.svg" alt="" /> -->
+      <p class="textLogo">Smp Madinatul Ilmi</p>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <img src="images/menu.png" alt="menu" id="menu-btn" />
+      </div>
+    </nav>
+    <!-- Navigation End-->
+
+    <!-- Home start -->
+    <section id="about-home">
+      <h2>Kontak Kami</h2>
+    </section>
+
+    <!-- Contact Us Start-->
+    <section id="contact">
+      <div class="getin">
+        <h2>Bergabung bersama kami</h2>
+        <p>Hubungi tim kami untuk pertanyaan, bantuan, atau peluang kerjasama. Kami siap memberikan pengalaman positif dan responsif untuk setiap interaksi.</p>
+        <div class="getin-details">
+          <h3>Lokasi</h3>
+          <div>
+            <i class="fas fa-home get"></i>
+            <p>Jl. Legoso Raya No.26, Pisangan, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15419</p>
+          </div>
+          <h3>Telepon</h3>
+          <div>
+            <i class="fas fa-phone-alt get"></i>
+            <p>+68 821-8318-5685</p>
+          </div>
+          <h3>Follow Kami</h3>
+          <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <form action="process_form.php" method="post">
+          <h4>Kirimkan kami pesan</h4>
+          <div class="form-row">
+            <input type="text" placeholder="Nama" name="name" id="" required />
+            <input type="text" placeholder="Alamat Email" name="email" id="" required />
+          </div>
+          <div class="form-col">
+            <input type="text" placeholder="Subjek" name="subject" id="" required />
+          </div>
+          <div class="form-col">
+            <textarea name="message" placeholder="Apa yang bisa dapat kami bantu ?" id="" cols="30" rows="8" required></textarea>
+          </div>
+          <div class="form-col">
+            <button type="submit">Kirim Pesan</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Us End-->
+
+    <!-- MAPS -->
+    <section id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7931.015132661041!2d106.74751278643154!3d-6.328212461135957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efb85743f925%3A0x30f9dabe48d63560!2sSekolah%20Menengah%20Pertama%20Islam%20Madinatul%20&#39;Ilmi!5e0!3m2!1sid!2sid!4v1701080981665!5m2!1sid!2sid"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <p>Welcome to Smp Madinatul Ilmi</p>
+      </div>
+      <div class="footer-col">
+        <h3>Instan Links</h3>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+      <div class="footer-col">
+        <h3>Non Academic Programs</h3>
+        <li><a href="inner-blog/postPramuka.html">Pramuka</a></li>
+        <li><a href="inner-blog/postTaekwondo.html">Taekwondo</a></li>
+        <li><a href="inner-blog/postOsis.html">Osis</a></li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Information</h3>
+        <p>
+          Address: Ciputat<br />
+          Phone: +62 821-8318-5685<br />
+          Email: smpmadinatulilmi27@gmail.com
+        </p>
+        <a href="#"><i class="fab fa-facebook"></i> </a>
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="#"><i class="fab fa-linkedin-in"></i> </a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy;2023 All Rights Reserved</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", async function (event) {
+          event.preventDefault();
+
+          const formData = new FormData(form);
+          const response = await fetch(form.action, {
+            method: form.method,
+            body: formData,
+          });
+
+          const result = await response.json();
+
+          if (result.status === "success") {
+            alert(result.message);
+            // Reset form
+            form.reset();
+          } else {
+            alert("Error occurred. Please try again.");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

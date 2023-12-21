@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMP MADINATUL</title>
+
+    <!-- Our Css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation Start-->
+    <nav>
+      <!-- <img src="images/logo.svg" alt="" /> -->
+      <p class="textLogo">Smp Madinatul Ilmi</p>
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="fas fa-times"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html" class="active">Course</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="images/menu.png" alt="menu" id="menu-btn" />
+      </div>
+    </nav>
+    <!-- Navigation End-->
+
+    <!-- Home start -->
+    <section id="about-home">
+      <h2>Akademik Smp Madinatul Ilmi</h2>
+    </section>
+
+    <!-- Courses Start -->
+    <section id="course">
+      <h1>Mata Pelajaran Kami</h1>
+      <div class="course-box">
+        <div class="courses" onclick="window.location.href='inner-post/course-inner-bing.html'">
+          <img src="images/english.jpeg" alt="" />
+          <div class="details">
+            <span>"The beautiful thing about learning is that no one can take it away from you."</span>
+            <h6>Bahasa Inggris</h6>
+          </div>
+        </div>
+        <div class="courses" onclick="window.location.href='inner-post/course-inner-bahasa.html'">
+          <img src="images/indo.jpeg" alt="" />
+          <div class="details">
+            <span>"Ilmu adalah cahaya yang membawa kita keluar dari kegelapan kebingungan menuju jalan yang terang benderang."</span>
+            <h6>Bahasa Indonesia</h6>
+          </div>
+        </div>
+        <div class="courses" onclick="window.location.href='inner-post/course-inner-arab.html'">
+          <img src="images/arab.jpeg" alt="" />
+          <div class="details">
+            <span
+              >العلم نو"العلم نور يضيء دروب الحياة." <br />
+
+              "Al-‘Ilmu nūrun yudī'u durūbal-ḥayāh." <br />
+              "Ilmu adalah cahaya yang menerangi jalan kehidupan."</span
+            >
+            <h6>English</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Courses End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="footer-col">
+        <h3>About Us</h3>
+        <p>Welcome to Smp Madinatul Ilmi</p>
+      </div>
+      <div class="footer-col">
+        <h3>Instan Links</h3>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+      <div class="footer-col">
+        <h3>Non Academic Programs</h3>
+        <li><a href="inner-blog/postPramuka.html">Pramuka</a></li>
+        <li><a href="inner-blog/postTaekwondo.html">Taekwondo</a></li>
+        <li><a href="inner-blog/postOsis.html">Osis</a></li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact Information</h3>
+        <p>
+          Address: Ciputat<br />
+          Phone: +62 821-8318-5685<br />
+          Email: smpmadinatulilmi27@gmail.com
+        </p>
+        <a href="#"><i class="fab fa-facebook"></i> </a>
+        <a href="#"><i class="fab fa-instagram"></i> </a>
+        <a href="#"><i class="fab fa-linkedin-in"></i> </a>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright &copy;2023 All Rights Reserved</p>
+        <div class="pro-links">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
